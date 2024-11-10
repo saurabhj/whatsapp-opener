@@ -1,6 +1,15 @@
 # README
 
-How to setup the script?
+## What does this script do?
+This script will open up a chat in the WhatsApp web-browser by running a command: `wa <phone number>`
+If a country code is not provided, this script will treat the number as an Indian phone number (+91). This can be changed in the code.
+
+Also handles various number formats.
+
+## Requirements
+1. Python 3.x
+
+## How to setup the script?
 
 ```
 chmod +x wa.py
